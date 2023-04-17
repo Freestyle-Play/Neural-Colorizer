@@ -18,7 +18,7 @@ if not torch.cuda.is_available():
 import warnings
 warnings.filterwarnings("ignore")
 
-token='1986545611:AAGbO9Kkx_kBicm_kkIWCyVA8SMqTKWuux8'
+token='Token'
 bot = Bot(token=token)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
